@@ -1,0 +1,396 @@
+body{
+  background : #00151b;
+ margin:0;
+ padding:0;
+}
+
+.container-fluid{
+  margin:0;
+  padding:0;
+}
+
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+
+.topBar{
+width:100%;
+height:40px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+
+
+
+.sponsorsBar{
+  width:350px;
+}
+
+.socialBar{
+  width:350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sponsorIcon{
+  margin-left: 10px;
+  margin-right: 10px;
+  height:25px;
+}
+.barIcon{
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+}
+
+#navSmall{
+margin:0 auto;
+background:#012632;
+padding-left:150px;
+padding-right:150px;
+font-size:20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content{
+  padding-top:60px;
+}
+
+.nav-item{
+padding-left:20px;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:#AF0C67;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+color:white;
+}
+
+#middleBanner{
+  height:500px;
+  background:#00151b;
+  background-size: cover;
+  margin-bottom:0px;
+}
+
+#bannerText{
+  margin-top:10%;
+  margin-left:5%;
+}
+.teams{
+  color:#AF0C67;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.teamContainer{
+
+  margin:0 auto;
+  width:100%;
+  
+
+}
+.players{
+  margin-bottom:20px;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size:36px;
+  color:#AF0C67;
+  text-align:center;
+  background:#012632;
+}
+img{
+  max-width:100%;
+max-height:100%;
+border-radius:2%;
+}
+
+
+.socialMedia{
+ display:inline;
+  height: 100%;
+}
+#sameLine{
+
+  width:100%;
+}
+
+.footer{
+  width:100%;
+  background:#012632;
+  height:350px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top:30px;
+}
+
+.ftrS{
+  height:250px;
+  width:250px;
+  color:#07769b;
+  font-size:16px;
+ 
+}
+
+.ftrTitle{
+  color:#EC128B;
+  font-size:18px;
+  text-transform: uppercase;
+margin-bottom:20px;
+}
+
+
+
+
+.barIcon{
+  color:#024055;
+  font-size:25px;
+  margin-left:10px;
+  margin-right:10px;
+  transition:0.6s all;
+}
+
+.barIcon:hover{
+  color:#EC128B;
+}
+
+.ftrEnd{
+  background:#012632;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ftrBorder{
+  border-top:1px #00151b solid;
+  width:80%;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+}
+
+.ftrBorder > span{
+  margin:15px;
+}
+
+.ftrIcon{
+  color:white;
+  font-size:15px;
+  margin-left:7px;
+  margin-right:7px;
+  transition:0.6s all;
+}
+
+.ftrIcon:hover{
+  color:#EC128B;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+
+#hsCard{
+  background:url(../assets/imgs/HSBACK.jpg) 50%;
+  background-size:cover;
+  transition:1s all;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem; 
+  overflow: hidden;
+
+  
+}
+.card:hover #hsCard{
+opacity:0.1;
+transform: scale(1.3);
+}
+  #test{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #view{
+    color:#EC128B;
+    background:#012632;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-size:36px;
+  }
+
+  #r6Card{
+    background:url(../assets/imgs/Tom_clancys_rainbow_six_siege-wallpaper-1366x768.jpg)center;
+    background-size:cover;
+    transition:1s all;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem; 
+    overflow: hidden;
+
+  }
+
+  .card:hover #r6Card{
+    opacity:0.1;
+    transform: scale(1.3);
+    }
+.yallaIcon{
+  height:30px;
+}
+    #ww2Card{
+      background:url(../assets/imgs/ww2.jpg) 50%;
+      background-size:cover;
+      transition:1s all;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      border-radius: 0.25rem; 
+      overflow: hidden;
+    }
+
+    .card:hover #ww2Card{
+      opacity:0.1;
+      transform: scale(1.3);
+      }
+  .card{
+    background : #00151b;
+  }
+
+  #navYalla{
+    height:60px;
+  }
+  .card{
+    height:600px;
+    overflow: hidden;
+ }
+.youtube{
+  width:100%;
+  height:630px;
+}
+.cpr{
+  display: flex;
+  align-items: center;
+}
+
+
+@media(max-width:768px) {
+
+  .ftrS{
+    font-size: 14px;
+  }
+  .ftrTitle{
+    font-size:16px;
+  }
+  .sponsorIcon{
+    height:14px;
+  }
+  .yallaIcon{
+    width:0;
+    height:0;
+  }
+#navYalla{
+  height:20px;
+}
+.socialBar{
+width:200px;
+
+}
+.barIcon{
+  font-size:15px;
+}
+
+.card{
+  height:400px;
+  
+}
+
+}
+
+@media(max-width:576px){
+  .youtube{
+ width:100%;
+  height:400px;
+  }
+  .ftrS{
+   font-size: 12px;
+ }
+ .ftrTitle{
+   font-size:14px;
+ }
+.cpr{
+  font-size:12px;
+  display: flex;
+  align-items: center;
+}
+
+
+}
+      /* OVER WRITING */
+
+
+
+
+      .container {
+
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; }
+ 
+@media (min-width: 576px) {
+  .container {
+    max-width: 576px; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px; } }
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1300px; } }
+
+
